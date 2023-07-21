@@ -6,7 +6,7 @@ import RecentOrders from "@/components/RecentOrders"
 
 const Home = () => {
   return (
-    <main className="max-w-full flex-top flex-col bg-white min-h-screen z-0 ml-20" >
+    <main className="max-w-full flex-top flex-col min-h-screen z-0 ml-20" >
       <Header/>
       <TopCards/>
       <div className="p-4 grid md:grid-cols-3 grid-cols-1 gap-4">
